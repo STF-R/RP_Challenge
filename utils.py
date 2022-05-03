@@ -22,8 +22,8 @@ class MultipleTimeSeriesCV:
 
     def __init__(self,
                  n_splits=3,
-                 train_period_length=126,
-                 test_period_length=21,
+                 train_period_length=110,
+                 test_period_length=28,
                  lookahead=None,
                  date_idx='DATE',
                  shuffle=False):
